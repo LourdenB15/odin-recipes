@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+}
+
+.main-li {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-li li {
+    list-style: none;
+}
+
+.container>p {
+    text-align: center;
+    transform: translateX(-50px);
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+
+.col-2-1 {
+    flex-basis: 49%;
+}
+
+.col-2-1 img {
+    height: 500px;
+    margin-left: 100px;
+}
+
+.col-2 {
+
+    flex-basis: 49%;
+
+}
+
+.procedure {
+    margin-bottom: 50px;
+}
+
+p:nth-last-of-type(1) {
+    margin-top: 0;
+}
+
+/* ---------ingredients--------- */
+.ingredient {
+    display: flex;
+}
+
+div:nth-of-type(3) {
+    align-self: center;
+}
+
+/* ------ Egg Fried Rice ------ */
+#egg-definition {
+    flex-grow: 1;
+    margin-top: 50px;
+}
+
+.col-3 {
+    flex: 1;
+}
+
+#author-r2 {
+    transform: translateX(17px);
+}
+
+/* ---- Sinarsahang Manok ---- */
+#sinarsahang-manok_3rd-definition {
+    flex-grow: 1;
+    margin-top: 20px;
+}
